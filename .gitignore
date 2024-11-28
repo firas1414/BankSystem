@@ -4,7 +4,7 @@
 *.suo
 
 # Ignore build directories
-bin/
+
 obj/
 
 # Ignore other unnecessary files

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <anyType xsi:type="ArrayOfBank">
+    <Bank>
+      <Location>Warsaw</Location>
+      <Name>Central Bank</Name>
+    </Bank>
+    <Bank>
+      <Location>Krakow</Location>
+      <Name>YYY Bank</Name>
+    </Bank>
+  </anyType>
+  <anyType xsi:type="ArrayOfBranch">
+    <Branch>
+      <BranchCode>101</BranchCode>
+      <City>Downtown</City>
+    </Branch>
+    <Branch>
+      <BranchCode>102</BranchCode>
+      <City>Uptown</City>
+    </Branch>
+  </anyType>
+  <anyType xsi:type="ArrayOfCustomer">
+    <Customer>
+      <Name>Firas</Name>
+      <Address>123 XXXX</Address>
+      <Accounts>
+        <Account xsi:type="SavingAccount">
+          <AccountNumber>1</AccountNumber>
+          <Income>10000</Income>
+          <Expenses>
+            <double>2000</double>
+          </Expenses>
+          <OpeningDate>2024-11-28T16:41:53.5597578+01:00</OpeningDate>
+          <InterestRate>2.5</InterestRate>
+        </Account>
+      </Accounts>
+    </Customer>
+    <Customer>
+      <Name>Serkan</Name>
+      <Address>456 YYYY</Address>
+      <Accounts>
+        <Account xsi:type="CheckingAccount">
+          <AccountNumber>2</AccountNumber>
+          <Income>5000</Income>
+          <Expenses>
+            <double>1000</double>
+          </Expenses>
+          <OpeningDate>2024-11-28T16:41:53.5658567+01:00</OpeningDate>
+          <MonthlyFee>10</MonthlyFee>
+        </Account>
+      </Accounts>
+    </Customer>
+    <Customer>
+      <Name>Ivan</Name>
+      <Address>43 YY</Address>
+      <Accounts />
+    </Customer>
+  </anyType>
+  <anyType xsi:type="ArrayOfAccount">
+    <Account xsi:type="SavingAccount">
+      <AccountNumber>1</AccountNumber>
+      <Income>10000</Income>
+      <Expenses>
+        <double>2000</double>
+      </Expenses>
+      <OpeningDate>2024-11-28T16:41:53.5597578+01:00</OpeningDate>
+      <InterestRate>2.5</InterestRate>
+    </Account>
+    <Account xsi:type="CheckingAccount">
+      <AccountNumber>2</AccountNumber>
+      <Income>5000</Income>
+      <Expenses>
+        <double>1000</double>
+      </Expenses>
+      <OpeningDate>2024-11-28T16:41:53.5658567+01:00</OpeningDate>
+      <MonthlyFee>10</MonthlyFee>
+    </Account>
+  </anyType>
+  <anyType xsi:type="ArrayOfInsurance">
+    <Insurance>
+      <Provider>ABC Insurance</Provider>
+      <CoverageLimits>50000</CoverageLimits>
+      <MonthlyPayment>300</MonthlyPayment>
+    </Insurance>
+    <Insurance>
+      <Provider>XYZ Insurance</Provider>
+      <CoverageLimits>100000</CoverageLimits>
+      <MonthlyPayment>500</MonthlyPayment>
+    </Insurance>
+  </anyType>
+  <anyType xsi:type="ArrayOfLoan">
+    <Loan>
+      <LoanNumber>1</LoanNumber>
+      <Amount>50000</Amount>
+      <Date>2024-11-28T16:41:53.5658567+01:00</Date>
+      <LoanType>Home Loan</LoanType>
+      <InterestLoanRate>3.5</InterestLoanRate>
+    </Loan>
+    <Loan>
+      <LoanNumber>2</LoanNumber>
+      <Amount>20000</Amount>
+      <Date>2024-11-28T16:41:53.5667584+01:00</Date>
+      <LoanType>Car Loan</LoanType>
+      <InterestLoanRate>4</InterestLoanRate>
+    </Loan>
+  </anyType>
+</ArrayOfAnyType>
